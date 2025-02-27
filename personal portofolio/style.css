@@ -4,10 +4,31 @@
   box-sizing: border-box;
 }
 
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .profil {
-  display: inline;
+  padding: 0.25rem;
+  margin-left: 0.25rem;
+  flex-direction: row;
 }
 
 nav {
-  justify-content: right;
+  margin-right: 0.25rem;
+}
+
+nav a {
+  padding: 0.25rem;
+  text-decoration: none;
+}
+
+.hero {
+  text-align: center;
+}
+
+main {
+  display: flex;
 }
