@@ -35,7 +35,7 @@ main {
   align-items: center;
 }
 
-.project .hero .work-experience .education {
+.projects .hero .work-experience .education {
   display: flex;
   flex-direction: column;
   width: 100%;
