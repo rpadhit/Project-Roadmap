@@ -31,4 +31,17 @@ nav a {
 
 main {
   display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.project .hero .work-experience .education {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+aside {
+  display: flex;
+  flex-direction: column;
 }
