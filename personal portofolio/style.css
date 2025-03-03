@@ -77,3 +77,33 @@ footer {
   display: flex;
   justify-content: center;
 }
+
+@media (max-width: 768px) {
+  header,
+  nav,
+  nav a {
+    display: grid;
+    justify-content: center;
+    width: auto;
+    font-size: 1.25rem;
+  }
+
+  .hero {
+    display: grid;
+    justify-content: center;
+    padding: 20px;
+  }
+
+  main {
+    display: grid;
+    text-align: center;
+  }
+
+  main > section {
+    padding: 0.5em;
+  }
+
+  section > ul {
+    list-style: none;
+  }
+}
